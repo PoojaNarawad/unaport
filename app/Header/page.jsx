@@ -5,9 +5,9 @@ const Header = () => {
   return (
     <div
       className=" w-full left-0 top-0 right-16
-     font-extrabold text-indigo-900 text-medium "
+     font-extrabold text-indigo-900 text-medium"
     >
-      <div className=" pt-11  pb-0 flex justify-around items-center">
+      <div className=" pt-11 pb-0 flex flex-col sm:flex-row items-center justify-around">
        <Image src={logo} width={400} height={400} alt="Picture of the logo" />
         <p>UNAPORT</p>
         <p>CONTACT</p>
