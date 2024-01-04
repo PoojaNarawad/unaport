@@ -8,7 +8,7 @@ const Header = () => {
      font-extrabold text-indigo-900 text-medium"
     >
       <div className=" pt-11 pb-0 flex flex-col sm:flex-row items-center justify-around">
-       <Image src={logo} width={400} height={400} alt="Picture of the logo" />
+       <Image src={logo} width={300} height={300} alt="Picture of the logo" />
         <p>UNAPORT</p>
         <p>CONTACT</p>
         <p>FAQS</p>
