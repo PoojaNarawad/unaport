@@ -40,7 +40,7 @@ const Cards = () => {
             </button>
           </div>
         </div>
-        <div className="w-full md:w-auto ml-2 lg:mr-1 h-96 bg-gradient-to-r from-[#1a187a] to-[#100e61] rounded-xl mt-4 md:mt-0">
+        <div className="w-full md:w-72 ml-2 lg:mr-1 h-96 bg-gradient-to-r from-[#1a187a] to-[#100e61] rounded-xl mt-4 md:mt-0">
           <div className="flex flex-col mt-52 p-10 mr-10">
             <button className="mb-2 text-left text-white border-2 border-gray-400 p-2 font-bold text-sm rounded-full">
               SIGN IN
