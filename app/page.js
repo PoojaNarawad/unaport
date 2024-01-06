@@ -4,7 +4,7 @@ import Cards from './Cards/page'
 
 export default function Home() {
   return (
-   <div className='container'>
+   <div className=' overflow-hidden'>
     <Header/>
     <Banner/>
     <Cards/>
