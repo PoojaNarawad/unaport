@@ -52,7 +52,7 @@ const Cards = () => {
   }, []);
 
   return (
-    <div className="p-4 m-4">
+    <div className="p-4 m-4 bg-slate-100 rounded-2xl">
       <div className="relative">
         <div className="inset-0 flex items-center justify-center">
           <div
@@ -74,16 +74,16 @@ const Cards = () => {
     >
       <div className="relative">
         <Image
-          width={400}
-          height={200}
+          width={600}
+          height={400}
           src={src}
           alt={alt}
           className="rounded-xl w-full h-96"
         />
 
-        <div className="opacity-100 absolute bottom-7 left-4 right-4 bg-opacity-20 bg-gray-300 backdrop-filter backdrop-blur-lg bg-blur shadow-none rounded-2xl p-5 flex flex-col items-start gap-4 transition-all duration-300 transform translate-y-1/2 group-hover:translate-y-0 group-hover:opacity-100">
+        <div className="opacity-100 absolute bottom-7 left-4 right-4 bg-opacity-20 bg-gray-300 backdrop-filter backdrop-blur-lg bg-blur shadow-none rounded-2xl p-5 flex flex-col items-start gap-4 md:transition-all  md:duration-300 md:transform translate-y-2/5 md:translate-y-3/4 group-hover:translate-y-0 group-hover:opacity-85">
           <div className="flex items-center justify-center space-x-8">
-            <h1 className="w-48 text-white text-xl">{text}</h1>
+            <h1 className="md:w-48 text-white md:text-xl">{text}</h1>
             <span>
               <FaPlusCircle
                 style={{
@@ -99,7 +99,7 @@ const Cards = () => {
       </div>
     </div>
   ))}
-</div>
+</div> 
     </div>
   );
 };
