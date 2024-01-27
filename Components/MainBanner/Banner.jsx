@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
+import carousel2 from "../../public/assets/carousel2.jpg";
 import carousel1 from "../../public/assets/carousel1.jpg";
 
 const Banner = () => {
@@ -14,7 +15,7 @@ const Banner = () => {
           <h2 className="mb-2 md:mb-3 text-blue-600 font-bold">Financial Information</h2>
           <h2 className="font-bold">Management</h2>
         </div>
-        <div className="w-full md:w-3/4 lg:w-5/12  mt-4 md:mt-6 text-base md:text-md text-gray-500">
+        <div className="w-full md:w-3/4 lg:w-3/6  mt-4 md:mt-6 text-base md:text-md text-gray-500">
           <p>
             Empowering businesses of every scale, Unaport is Your trusted
             partner for streamlined financial data management.
@@ -53,7 +54,7 @@ const Banner = () => {
             <Image
               width={0}
               height={0}
-              src={carousel1}
+              src={carousel2}
               alt="Carousel2"
               className="rounded-2xl"
             />
