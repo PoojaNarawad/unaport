@@ -9,22 +9,22 @@ const Banner = () => {
   return (
     <div className="mx-6 md:p-10 flex flex-col md:flex-row justify-around">
       <div className="w-full md:w-1/2 flex flex-col justify-around">
-        <div className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
+        <div className="text-3xl md:text-4xl lg:text-4xl xl:text-5xl">
           <h2 className="mb-2 md:mb-3 font-bold ">Simplify Your</h2>
           <h2 className="mb-2 md:mb-3 text-blue-600 font-bold">Financial Information</h2>
           <h2 className="font-bold">Management</h2>
         </div>
-        <div className="w-full md:w-3/4 lg:w-2/3  mt-4 md:mt-10 text-base md:text-lg text-gray-500">
+        <div className="w-full md:w-3/4 lg:w-5/12  mt-4 md:mt-6 text-base md:text-md text-gray-500">
           <p>
             Empowering businesses of every scale, Unaport is Your trusted
             partner for streamlined financial data management.
           </p>
-          <p className="mt-4 md:mt-8 mb-4">
+          <p className="mt-4 md:mt-4 mb-4">
             Enhance Connectivity, Optimize Insights, and fuel Your growth with
             confidence.
           </p>
         </div>
-        <button className=" w-40 border-2 border-blue-600 p-2 pl-9 pr-9 mt-8 md:mt-6 mb-8 md:mb-2 text-blue-700 rounded-full">
+        <button className="text-sm font-semibold w-40 border-2 border-blue-600 p-2 pl-6 pr-6 md:mt-2 mb-8 md:mb-2 text-blue-700 rounded-full">
           SIGN IN
         </button>
       </div>
