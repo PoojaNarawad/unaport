@@ -9,8 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@iconify/icons-ic": "^1.2.13",
-    "@iconify/react": "^4.1.1",
     "autoprefixer": "10.4.16",
     "eslint": "8.56.0",
     "eslint-config-next": "14.0.4",

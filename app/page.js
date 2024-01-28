@@ -1,3 +1,6 @@
+"use client";
+
+import 'tailwindcss/tailwind.css';
 import Header from '../Components/Header/Header';
 import Banner from '../Components/MainBanner/Banner';
 import Cards from '../Components/Cards/Cards';
