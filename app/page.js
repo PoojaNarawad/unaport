@@ -18,9 +18,9 @@ export default function Home() {
     <Article/>
     <ArticleBelow/>
     <AboutUnaport/>
-    <AboutUnaportBelow/>
-    <BenefitsOfUnaport/>
-    <Overview/>
+    {/* <AboutUnaportBelow/> */}
+    {/* <BenefitsOfUnaport/> */}
+    {/* <Overview/> */}
     <Footer/>
    </div>
   )

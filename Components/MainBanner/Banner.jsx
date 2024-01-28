@@ -12,7 +12,9 @@ const Banner = () => {
       <div className="w-full md:w-1/2 flex flex-col justify-around">
         <div className="text-3xl md:text-4xl lg:text-4xl xl:text-5xl">
           <h2 className="mb-2 md:mb-3 font-bold ">Simplify Your</h2>
-          <h2 className="mb-2 md:mb-3 text-blue-600 font-bold">Financial Information</h2>
+          <h2 className="mb-2 md:mb-3 text-blue-600 font-bold">
+            Financial Information
+          </h2>
           <h2 className="font-bold">Management</h2>
         </div>
         <div className="w-full md:w-3/4 lg:w-3/6  mt-4 md:mt-6 text-base md:text-md text-gray-500">
@@ -30,9 +32,7 @@ const Banner = () => {
         </button>
       </div>
 
-      
-
-       <div className="w-full md:w-1/2 relative">
+      <div className="w-full md:w-1/2 relative">
         <Carousel
           infiniteLoop
           autoPlay
@@ -60,7 +60,7 @@ const Banner = () => {
             />
           </div>
         </Carousel>
-      </div> 
+      </div>
     </div>
   );
 };

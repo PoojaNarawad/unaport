@@ -67,42 +67,41 @@ const Cards = () => {
         </div>
       </div>
       <div className="py-20 flex flex-col md:flex-row items-center justify-evenly pt-5 space-y-16 md:space-y-12">
-  {imageData.map(({ src, alt, text, description }, index) => (
-    <div
-      key={index}
-      className="w-full h-96 md:w-96 mt-3 md:mt-2 p-4 md:p-4 relative overflow-hidden group"
-    >
-      <div className="relative">
-        <Image
-          width={600}
-          height={400}
-          src={src}
-          alt={alt}
-          className="rounded-xl w-full h-96"
-        />
-
-        <div className="opacity-100 absolute bottom-7 left-4 right-4 bg-opacity-20 bg-gray-300 backdrop-filter backdrop-blur-lg bg-blur shadow-none rounded-2xl p-5 flex flex-col items-start gap-4 md:transition-all  md:duration-300 md:transform translate-y-2/5 md:translate-y-3/4 group-hover:translate-y-0 group-hover:opacity-85">
-          <div className="flex items-center justify-center space-x-8">
-            <h1 className="md:w-48 text-white md:text-xl">{text}</h1>
-            <span>
-              <FaPlusCircle
-                style={{
-                  backgroundColor: "transparent",
-                  color: "white",
-                  fontSize: "1.5em",
-                }}
+        {imageData.map(({ src, alt, text, description }, index) => (
+          <div
+            key={index}
+            className="w-full h-96 md:w-96 mt-3 md:mt-2 p-4 md:p-4 relative overflow-hidden group"
+          >
+            <div className="relative">
+              <Image
+                width={600}
+                height={400}
+                src={src}
+                alt={alt}
+                className="rounded-xl w-full h-96"
               />
-            </span>
+
+              <div className="opacity-100 absolute bottom-7 left-4 right-4 bg-opacity-20 bg-gray-300 backdrop-filter backdrop-blur-lg bg-blur shadow-none rounded-2xl p-5 flex flex-col items-start gap-4 md:transition-all  md:duration-300 md:transform translate-y-2/5 md:translate-y-3/4 group-hover:translate-y-0 group-hover:opacity-85">
+                <div className="flex items-center justify-center space-x-8">
+                  <h1 className="md:w-48 text-white md:text-xl">{text}</h1>
+                  <span>
+                    <FaPlusCircle
+                      style={{
+                        backgroundColor: "transparent",
+                        color: "white",
+                        fontSize: "1.5em",
+                      }}
+                    />
+                  </span>
+                </div>
+                <p className="text-white">{description}</p>
+              </div>
+            </div>
           </div>
-          <p className="text-white">{description}</p>
-        </div>
+        ))}
       </div>
-    </div>
-  ))}
-</div> 
     </div>
   );
 };
 
 export default Cards;
-
