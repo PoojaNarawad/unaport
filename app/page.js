@@ -1,5 +1,3 @@
-"use client";
-
 import '../app/globals.css';
 import 'tailwindcss/tailwind.css';
 import Header from '../Components/Header/Header';
@@ -22,9 +20,9 @@ export default function Home() {
     <Article/>
     <ArticleBelow/>
     <AboutUnaport/>
-    {/* <AboutUnaportBelow/> */}
-    {/* <BenefitsOfUnaport/> */}
-    {/* <Overview/> */}
+    <AboutUnaportBelow/>
+    <BenefitsOfUnaport/>
+    <Overview/>
     <Footer/>
    </div>
   )
