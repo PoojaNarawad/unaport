@@ -1,5 +1,6 @@
 "use client";
 
+import '../styles/globals.css';
 import 'tailwindcss/tailwind.css';
 import Header from '../Components/Header/Header';
 import Banner from '../Components/MainBanner/Banner';
