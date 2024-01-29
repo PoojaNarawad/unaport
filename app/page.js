@@ -1,5 +1,3 @@
-import '../app/globals.css';
-import 'tailwindcss/tailwind.css';
 import Header from '../Components/Header/Header';
 import Banner from '../Components/MainBanner/Banner';
 import Cards from '../Components/Cards/Cards';
@@ -10,6 +8,9 @@ import AboutUnaport from '@/Components/About/AboutUnaport';
 import Article from '@/Components/Article/Article';
 import ArticleBelow from '@/Components/Article/ArticleBelow';
 import AboutUnaportBelow from '@/Components/About/AboutUnaportBelow';
+import 'tailwindcss/tailwind.css';
+import '../app/globals.css';
+
 
 export default function Home() {
   return (

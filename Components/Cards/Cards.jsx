@@ -2,33 +2,34 @@
 
 import Image from "next/image";
 import React, { useEffect } from "react";
-import { FaPlusCircle } from "react-icons/fa";
+// import { FaPlusCircle } from "react-icons/fa";
+import CallReceivedOutlinedIcon from '@mui/icons-material/CallReceivedOutlined';
 
 const Cards = () => {
   const imageData = [
     {
-      src: "/assets/card.jpg",
+      src: "/assets/4.jpg",
       alt: "Image 1",
       text: "Comprehensive Financial Data",
       description:
         "Make informed decisions with our intelligent analytics tools. Our platform uses advanced algorithms to analyze financial data, providing you with actionable insights that drive success in an ever-changing market.",
     },
     {
-      src: "/assets/card.jpg",
+      src: "/assets/5.jpg",
       alt: "Image 2",
       text: "Intelligent Analytics",
       description:
         "Make informed decisions with our intelligent analytics tools. Our platform uses advanced algorithms to analyze financial data, providing you with actionable insights that drive success in an ever-changing market.",
     },
     {
-      src: "/assets/card.jpg",
+      src: "/assets/3.jpg",
       alt: "Image 3",
       text: "Seamless Integration",
       description:
         "Make informed decisions with our intelligent analytics tools. Our platform uses advanced algorithms to analyze financial data, providing you with actionable insights that drive success in an ever-changing market.",
     },
     {
-      src: "/assets/card.jpg",
+      src: "/assets/2.jpg",
       alt: "Image 4",
       text: "Security You Can Trust",
       description:
@@ -57,7 +58,7 @@ const Cards = () => {
         <div className="inset-0 flex items-center justify-center">
           <div
             className="tagline text-center md:text-left relative"
-            style={{ left: "50%", transform: "translateX(-50%)" }}
+            style={{ left: "70%", transform: "translateX(-50%)" }}
           >
             <div className="text-4xl md:text-6xl font-serif">
               Empowering Your Finances with
@@ -81,20 +82,25 @@ const Cards = () => {
                 className="rounded-xl w-full h-96"
               />
 
-              <div className="opacity-100 absolute bottom-7 left-4 right-4 bg-opacity-20 bg-gray-300 backdrop-filter backdrop-blur-lg bg-blur shadow-none rounded-2xl p-5 flex flex-col items-start gap-4 md:transition-all  md:duration-300 md:transform translate-y-2/5 md:translate-y-3/4 group-hover:translate-y-0 group-hover:opacity-85">
+              <div className="opacity-100 absolute bottom-11 left-4 right-4 bg-opacity-20 bg-gray-300 backdrop-filter backdrop-blur-lg bg-blur shadow-none rounded-2xl p-5 md:p-5 flex flex-col items-start gap-4 md:transition-all  md:duration-300 md:transform translate-y-2/5 md:translate-y-3/4 group-hover:translate-y-0 group-hover:opacity-85">
                 <div className="flex items-center justify-center space-x-8">
-                  <h1 className="md:w-48 text-white md:text-xl">{text}</h1>
+                  <h1 className="md:w-48 text-white text-sm md:text-md">{text}</h1>
                   <span>
-                    <FaPlusCircle
+                    <CallReceivedOutlinedIcon
                       style={{
                         backgroundColor: "transparent",
                         color: "white",
                         fontSize: "1.5em",
+                        border: "1px solid white",
+                        borderRadius: "50%",
+                        width: "30px", 
+                        height: "30px",
+                        padding:"4px",                      
                       }}
                     />
                   </span>
                 </div>
-                <p className="text-white">{description}</p>
+                <p className="text-white text-sm md:text-md">{description}</p>
               </div>
             </div>
           </div>

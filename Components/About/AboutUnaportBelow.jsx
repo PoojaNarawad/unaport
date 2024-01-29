@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import carousel2 from "../../public/assets/carousel2.jpg";
+import picture9 from "../../public/assets/9.jpg";
+import picture10 from "../../public/assets/10.jpg";
 
 const AboutUnaportBelow = () => {
   return (
@@ -9,29 +10,36 @@ const AboutUnaportBelow = () => {
         <Image
           width={500}
           height={0}
-          src={carousel2}
-          alt="sample"
+          src={picture9}
+          alt="picture9"
           className="w-full h-96 rounded-2xl "
         />
-        <h1 className="md:w-52 text-sm  md:text-md absolute top-0 p-4 bg-white m-2 w-36 rounded-2xl">
+        <h1 className="w-52 md:w-64 text-sm md:text-lg absolute top-0 p-4 md:p-4 md:m-5 bg-white m-4 rounded-2xl">
           How reliable in Unaport? What is your uptime?
         </h1>
-        <p className=" md:w-3/4 left-16 text-sm md:text-md absolute top-56 p-4 bg-white m-2 rounded-2xl">
+        <p className="w-72 md:w-4/5 md:left-16 left-3 text-sm md:text-lg absolute top-56 md:p-2 p-4 bg-white m-2 rounded-2xl">
           Reliability is at the core of the Unaport platform. With a 99.99%
           uptime commitment, our services are consistently accessible. disaster
           recovery plan ensure data
         </p>
       </div>
 
-      <div className="bg-blue-50 p-5 mt-5 rounded-xl  md:w-1/2">
+      <div className="bg-blue-50 p-2 mt-5 rounded-xl  md:w-1/2">
         <div className="flex items-center justify-center">
-          <div className="w-full md:p-6 p-4 bg-white rounded-2xl">
-            <h1 className="md:w-44  ml-2 text-md md:text-lg font-bold text-black">
+          <div className=" w-full md:p-3 p-4 rounded-2xl">
+          <Image
+          width={500}
+          height={0}
+          src={picture10}
+          alt="sample"
+          className="w-full md:h-28 h-24 rounded-2xl "
+        />
+            <h1 className="-mt-20 md:-mt-24 md:w-1/4 w-1/2 p-1 md:ml-6 ml-2 text-sm md:text-md md:text-lg font-bold text-white">
               Is my data safe with Unaport?
             </h1>
           </div>
         </div>
-        <p className="p-4 md:w-3/4 font-sans">
+        <p className="p-8 text-lg md:text-xl md:w-full font-normal">
           Absolutely, your data&apos;s safety is our top priority at Unaport. We
           implement robust security measures, including real-time data backup
           and a disaster recovery plan, ensuring the security and retrievability
