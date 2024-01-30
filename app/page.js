@@ -5,7 +5,7 @@ import Footer from '../Components/Footer/Footer';
 import Overview from '@/Components/PlatformOverview/Overview';
 import BenefitsOfUnaport from '@/Components/BenefitsOfUnaport/BenefitsOfUnaport';
 import AboutUnaport from '@/Components/About/AboutUnaport';
-import Article from '@/Components/Article/Article';
+// import Article from '@/Components/Article/Article';
 import ArticleBelow from '@/Components/Article/ArticleBelow';
 import AboutUnaportBelow from '@/Components/About/AboutUnaportBelow';
 import 'tailwindcss/tailwind.css';
@@ -18,7 +18,7 @@ export default function Home() {
     <Header/>
     <Banner/>
     <Cards/>
-    <Article/>
+    {/* <Article/> */}
     <ArticleBelow/>
     <AboutUnaport/>
     <AboutUnaportBelow/>

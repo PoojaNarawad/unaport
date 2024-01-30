@@ -17,10 +17,9 @@ const AboutUnaportBelow = () => {
         <h1 className="w-52 md:w-64 text-sm md:text-lg absolute top-0 p-4 md:p-4 md:m-5 bg-white m-4 rounded-2xl">
           How reliable in Unaport? What is your uptime?
         </h1>
-        <p className="w-72 md:w-4/5 md:left-16 left-3 text-sm md:text-lg absolute top-56 md:p-2 p-4 bg-white m-2 rounded-2xl">
-          Reliability is at the core of the Unaport platform. With a 99.99%
-          uptime commitment, our services are consistently accessible. disaster
-          recovery plan ensure data
+        <p className="w-72 md:w-4/5 md:left-16 left-3 text-sm md:text-lg absolute top-56 md:p-2 p-5 bg-white m-2 rounded-2xl">
+        Unaport ensures reliability with 99.99% uptime, real-time data backup, and 24/7 support for seamless financial data management.
+
         </p>
       </div>
 
@@ -39,13 +38,11 @@ const AboutUnaportBelow = () => {
             </h1>
           </div>
         </div>
-        <p className="p-8 text-lg md:text-xl md:w-full font-normal">
-          Absolutely, your data&apos;s safety is our top priority at Unaport. We
-          implement robust security measures, including real-time data backup
-          and a disaster recovery plan, ensuring the security and retrievability
-          of your information. It&apos;s important to note that Unaport
-          understands the unique requirements of each Financial Information User
-          (FIU), and as such, databases and services are distinct for each FIU.
+        <p className="p-8 md:mt-4 text-lg md:text-xl md:w-full font-normal">
+        At Unaport, your data&apos;s safety is paramount, with robust security measures, real-time backup, and a personalized approach for each Financial Information User (FIU).
+        </p>
+        <p className="md:p-1 md:ml-8 text-lg md:text-xl md:w-full font-normal">
+        Our individualized services enhance data privacy and security, ensuring your information is handled with utmost care and confidentiality. 
         </p>
       </div>
     </div>

@@ -6,7 +6,7 @@ import benificial from "../../public/assets/11.jpg";
 const BenefitsOfUnaport = () => {
   return (
     <div className="md:w-full flex flex-col md:flex-row justify-evenly items-center ">
-      <div className="rounded-2xl flex flex-col p-10 md:m-10 justify-around items-center bg-sky-100 mb-10 md:w-1/2 md:rounded-2xl ">
+      <div className="rounded-2xl flex flex-col p-5 md:m-10 justify-around items-center bg-sky-100 mb-10 md:w-1/3 md:rounded-2xl ">
         <h2 className="p-3 md:p-4 w-11/12 font-semibold md:text-2xl bg-white rounded-xl ">
           What are the benefits of Unaport?
         </h2>
@@ -104,18 +104,12 @@ const BenefitsOfUnaport = () => {
       className="md:min-w-full h-80 md:rounded-t-2xl"
     />
     <div className="md:w-full bg-gradient-to-r from-indigo-900 to-indigo-950 border-indigo-900 md:rounded-b-2xl">
-      <p className="font-light text-white text-sm md:text-lg p-3 md:p-3">
-        Absolutely, your data&apos;s safety is our top priority at Unaport. We
-        implement robust security measures, including real-time data backup and
-        a disaster recovery plan, ensuring the security and retrievability of
-        your information. It&apos;s important to note that Unaport understands
-        the unique requirements of each Financial Information User (FIU), and as
-        such, databases and services are distinct for each FIU.
+      <p className="font-light text-white text-sm md:text-lg p-3 md:mb-4 md:p-3">
+      Unaport is engineered for seamless adaptability and scalability, effortlessly growing with your business&apos;s expansion.
       </p>
-      <p className="font-light text-white text-sm md:text-lg p-3 md:p-3 md:-mt-7 md:mb-12">
-        This individualized approach enhances data privacy and security, giving
-        you the confidence that your information is handled with the utmost care
-        and confidentiality.
+    
+      <p className="font-light text-white  text-sm md:text-lg p-3 md:p-3 md:-mt-7 md:mb-12">
+      With flexibility to accommodate increased data volume, additional users, and expanded functionalities, our platform ensures alignment with your evolving needs, providing a reliable and tailored solution as your business thrives.
       </p>
     </div>
   </div>

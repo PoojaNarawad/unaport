@@ -7,7 +7,7 @@ const ArticleBelow = () => {
   return (
     <div className="mt-10 md:m-4 flex flex-col md:flex-row items-center relative ">
       <div className="flex flex-col items-center md:w-1/2">
-        <button className="md:ml-64 mr-20 md:m-3 p-1 border border-blue-900 text-blue-900 rounded-full">
+        <button className="md:ml-96 mr-20 md:m-3 md:p-3 p-2 border border-blue-900 text-blue-900 rounded-full">
           <EastOutlinedIcon />
         </button>
         <h1 className="w-4/5 md:w-auto text-4xl md:text-7xl md:ml-20 mt-4 md:mt-0">

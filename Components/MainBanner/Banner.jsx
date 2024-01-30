@@ -1,15 +1,28 @@
 "use client";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
-// import carousel2 from "../../public/assets/carousel2.jpg";
+// import "react-responsive-carousel/lib/styles/carousel.min.css";
+// import { Carousel } from "react-responsive-carousel";
 import carousel1 from "../../public/assets/1.jpg";
+import carousel2 from "../../public/assets/9.jpg";
+
+const imageSources = [carousel1, carousel2];
 
 const Banner = () => {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentImageIndex(
+        (prevIndex) => (prevIndex + 1) % imageSources.length
+      );
+    }, 3000);
+    return () => clearInterval(intervalId);
+  }, []);
+
   return (
     <div className="mx-6 md:p-10 flex flex-col md:flex-row justify-around">
-      <div className="w-full md:w-1/2 flex flex-col justify-around">
+      <div className="w-full md:w-3/4 md:mt-4 md flex flex-col justify-around">
         <div className=" text-4xl md:text-5xl lg:text-4xl xl:text-6xl">
           <h2 className="mb-2 md:mb-3 font-bold ">Simplify Your</h2>
           <h2 className="mb-2 md:mb-3 text-blue-600 font-bold">
@@ -31,35 +44,12 @@ const Banner = () => {
           SIGN IN
         </button>
       </div>
-
-      <div className="w-full md:w-1/2 relative">
-        <Carousel
-          infiniteLoop
-          autoPlay
-          showStatus={false}
-          showArrows={false}
-          interval={1700}
-          showThumbs={false}
-        >
-          <div className="w-full">
-            <Image
-              width={0}
-              height={0}
-              src={carousel1}
-              alt="Carousel1"
-              className="rounded-2xl"
-            />
-          </div>
-          <div className="w-full">
-            <Image
-              width={0}
-              height={0}
-              src={carousel1}
-              alt="Carousel2"
-              className="rounded-2xl"
-            />
-          </div>
-        </Carousel>
+      <div className="w-full md:mt-10 md:w-11/12 relative">
+        <Image
+          src={imageSources[currentImageIndex]}
+          alt={`Carousel${currentImageIndex + 1}`}
+          className="w-full transition-opacity op100 ease-in-out rounded-2xl"
+        />
       </div>
     </div>
   );
