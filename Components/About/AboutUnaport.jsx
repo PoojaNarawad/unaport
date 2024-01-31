@@ -4,7 +4,7 @@ import picture8 from "../../public/assets/8.jpg";
 
 const AboutUnaport = () => {
   return (
-    <div className="mt-20 md:mt-0 m-5 md:m-14 rounded-2xl flex items-center bg-sky-50 flex-col md:flex md:flex-row">
+    <div className="mt-20 md:mt-0 m-5 md:m-10 rounded-2xl flex items-center bg-sky-50 flex-col md:flex md:flex-row">
       <div className="font-sans md:w-1/2">
         <div>
           <p className="w-64 md:w-11/12 md:p-14 md:-mt-10 p-3 font-bold text-2xl md:text-5xl text-blue-600 bg-white rounded-br-2xl">

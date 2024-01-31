@@ -5,7 +5,7 @@ import picture10 from "../../public/assets/10.jpg";
 
 const AboutUnaportBelow = () => {
   return (
-    <div className="md:m-10 m-5 md:-mt-5 flex flex-col md:flex-row items-center justify-around font-sans">
+    <div className="md:m-10 m-5 flex flex-col md:flex-row items-center justify-around font-sans">
       <div className="relative md:m-2 md:w-1/2">
         <Image
           width={500}
