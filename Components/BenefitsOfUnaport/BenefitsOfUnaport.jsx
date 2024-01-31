@@ -5,22 +5,22 @@ import benificial from "../../public/assets/11.jpg";
 
 const BenefitsOfUnaport = () => {
   return (
-    <div className="md:w-full flex flex-col md:flex-row justify-evenly items-center ">
-      <div className="rounded-2xl flex flex-col p-5 md:m-10 justify-around items-center bg-sky-100 mb-10 md:w-1/3 md:rounded-2xl ">
-        <h2 className="p-3 md:p-4 w-11/12 font-semibold md:text-2xl bg-white rounded-xl ">
+    <div className=" md:m-10 md:-mt-10 m-5 flex flex-col md:flex-row justify-evenly items-center ">
+      <div className=" md:w-1/2 flex flex-col p-2 md:p-10 md:m-5 m-5 justify-around items-center bg-sky-100 md:rounded-2xl rounded-2xl">
+        <div className="p-2 md:p-4 md:w-11/12 font-semibold text-xl md:text-3xl bg-white rounded-xl">
           What are the benefits of Unaport?
-        </h2>
+        </div>
         <div className="mt-7">
           <div className="flex items-center justify-center p-2">
-            <span className="flex items-center text-center flex-col">
+            <span className="flex flex-col items-center text-center">
               <Image
                 width={50}
                 height={50}
                 src={sampleimg}
                 alt="sample"
-                className=" rounded-full w-20 h-20"
+                className="rounded-full w-20 h-20 md:mr-28"
               />
-              <p className=" text-indigo-900 font-semibold w-36 md:w-52 text-xs md:text-sm mt-2">
+              <p className="text-indigo-900 font-semibold w-36 md:w-52 text-xs md:text-sm mt-2 md:mr-28 mr-0">
                 Multi-Account Aggregator Connectivity
               </p>
             </span>
@@ -44,9 +44,9 @@ const BenefitsOfUnaport = () => {
                 height={50}
                 src={sampleimg}
                 alt="sample"
-                className="rounded-full w-20 h-20"
+                className="rounded-full w-20 h-20 md:mr-28"
               />
-              <p className="text-indigo-900 font-semibold w-36 md:w-52 text-xs md:text-sm mt-2">
+              <p className="text-indigo-900 font-semibold w-36 md:w-52 text-xs md:text-sm mt-2 mr-0 md:mr-28">
                 Data Security
               </p>
             </span>
@@ -56,9 +56,9 @@ const BenefitsOfUnaport = () => {
                 height={50}
                 src={sampleimg}
                 alt="sample"
-                className=" rounded-full w-20 h-20"
+                className="rounded-full w-20 h-20"
               />
-              <p className=" text-indigo-900 font-semibold w-36 md:w-52 text-xs md:text-sm mt-2">
+              <p className="text-indigo-900 font-semibold w-36 md:w-52 text-xs md:text-sm mt-2">
                 Seamless Operations
               </p>
             </span>
@@ -70,9 +70,9 @@ const BenefitsOfUnaport = () => {
                 height={50}
                 src={sampleimg}
                 alt="sample"
-                className="rounded-full w-20 h-20"
+                className="rounded-full w-20 h-20 md:mr-28"
               />
-              <p className="text-indigo-900 font-semibold w-36 md:w-52 text-xs md:text-sm mt-2">
+              <p className="text-indigo-900 font-semibold w-36 md:w-52 text-xs md:text-sm mt-2 mr-0 md:mr-28">
                 User-Friendly Interface
               </p>
             </span>
@@ -91,30 +91,33 @@ const BenefitsOfUnaport = () => {
           </div>
         </div>
       </div>
-      <div className="relative md:mt-12 md:w-1/2 ">
-  <div className="absolute z-10 w-3/4 md:w-3/5 md:p-4 p-5 font-semibold md:text-3xl border-indigo-900">
-    Can Unaport adapt and scale as my business grows?
-  </div>
-  <div className="w-full md:w-11/12 relative overflow-hidden">
-    <Image
-      width={400}
-      height={200}
-      src={benificial}
-      alt="sample"
-      className="md:min-w-full h-80 md:rounded-t-2xl"
-    />
-    <div className="md:w-full bg-gradient-to-r from-indigo-900 to-indigo-950 border-indigo-900 md:rounded-b-2xl">
-      <p className="font-light text-white text-sm md:text-lg p-3 md:mb-4 md:p-3">
-      Unaport is engineered for seamless adaptability and scalability, effortlessly growing with your business&apos;s expansion.
-      </p>
-    
-      <p className="font-light text-white  text-sm md:text-lg p-3 md:p-3 md:-mt-7 md:mb-12">
-      With flexibility to accommodate increased data volume, additional users, and expanded functionalities, our platform ensures alignment with your evolving needs, providing a reliable and tailored solution as your business thrives.
-      </p>
-    </div>
-  </div>
-</div>
+      <div className="relative md:mt-8 md:w-1/2">
+        <div className="absolute z-10 w-3/4 md:w-2/3 md:p-5 p-5 font-semibold md:text-3xl border-indigo-900">
+          Can Unaport adapt and scale as my business grows?
+        </div>
+        <div className=" md:mr-3 mt-4 md:mt-0 relative overflow-hidden">
+          <Image
+            width={400}
+            height={200}
+            src={benificial}
+            alt="sample"
+            className="md:w-full md:h-96"
+          />
+          <div className="bg-gradient-to-r from-indigo-900 to-indigo-950 border-indigo-900 md:rounded-b-2xl">
+            <p className="font-light text-white text-sm md:text-lg p-3 md:mb-3 md:p-5">
+              Unaport is engineered for seamless adaptability and scalability,
+              effortlessly growing with your business&apos;s expansion.
+            </p>
 
+            <p className="font-light text-white  text-sm md:text-lg p-3 md:p-7 md:-mt-12 md:mb-12">
+              With flexibility to accommodate increased data volume, additional
+              users, and expanded functionalities, our platform ensures
+              alignment with your evolving needs, providing a reliable and
+              tailored solution as your business thrives.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

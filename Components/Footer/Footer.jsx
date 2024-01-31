@@ -5,7 +5,7 @@ import { Inter } from "next/font/google";
 
 const Footer = () => {
   return (
-    <div className="m-10 p-10 font-sans block md:flex md:items-center justify-around rounded-2xl bg-sky-100">
+    <div className="m-4 p-10 font-sans block md:flex md:items-center justify-around rounded-2xl bg-sky-100">
       <div className="md:p-5">
         <Image src={logo} className="w-44 md:mb-0" alt="Picture of the logo" />
         <p className="pt-4 md:w-80">

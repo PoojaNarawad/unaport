@@ -20,4 +20,55 @@
     z-index: 10;
   }
 
+  /* ......ArticleBelow rotation...... */
+
+  @keyframes slideDown {
+	from {
+	  transform: translateY(0);
+	}
+	to {
+	  transform: translateY(100%);
+	}
+  }
+  
+  @keyframes slideRight {
+	from {
+	  transform: translateX(0);
+	}
+	to {
+	  transform: translateX(100%);
+	}
+  }
+  
+  .slid-icon {
+	transform: translate-x-1/2; /* This seems to be incorrect, it should be translateX(1/2) */
+  }
+  
+  .slid-arrow-animation {
+	animation: slideDown 1s ease-in-out; /* Change the animation name to slideDown */
+  }
+  
+  .slidArrow {
+	animation: slideRight 1s linear ; /* Change the animation name to slideRight */
+  }
+  
+  
+
+/* @keyframes rotate {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(360deg);
+	}
+  }
+  
+  .rotate-animation {
+	animation: rotate 1s ease-in-out;
+  }
+  
+  .rotate-icon {
+	transform: rotate(360deg);
+  } */
+
   

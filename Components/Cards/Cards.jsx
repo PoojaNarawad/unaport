@@ -50,7 +50,7 @@ const Cards = () => {
   }, []);
 
   return (
-    <div className="p-4 m-4 bg-slate-100 rounded-2xl">
+    <div className="p-4 m-4 md:m-14 bg-slate-100 rounded-2xl">
       <div className="relative">
         <div className="inset-0 flex items-center justify-center">
           <div
