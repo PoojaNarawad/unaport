@@ -41,34 +41,17 @@
   }
   
   .slid-icon {
-	transform: translate-x-1/2; /* This seems to be incorrect, it should be translateX(1/2) */
+	transform: translate-x-1/2; 
   }
   
   .slid-arrow-animation {
-	animation: slideDown 1s ease-in-out; /* Change the animation name to slideDown */
+	animation: slideDown 1s ease-in-out; 
   }
   
   .slidArrow {
-	animation: slideRight 1s linear ; /* Change the animation name to slideRight */
+	animation: slideRight 1s linear ; 
   }
   
   
-
-/* @keyframes rotate {
-	from {
-	  transform: rotate(0deg);
-	}
-	to {
-	  transform: rotate(360deg);
-	}
-  }
-  
-  .rotate-animation {
-	animation: rotate 1s ease-in-out;
-  }
-  
-  .rotate-icon {
-	transform: rotate(360deg);
-  } */
 
   
