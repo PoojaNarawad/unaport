@@ -39,7 +39,11 @@ const Cards = () => {
       const scrollPos = window.scrollY;
       const textContainer = document.querySelector(".tagline");
       if (textContainer) {
-        textContainer.style.transform = `translateX(-50%) translateX(${-scrollPos}px)`;
+        if (window.innerWidth >= 1024) {
+          textContainer.style.transform = `translateX(-50%) translateX(${-scrollPos}px)`;
+        } else {
+          textContainer.style.transform = "translateX(-50%)";
+        }
       }
     };
 
@@ -50,12 +54,12 @@ const Cards = () => {
   }, []);
 
   return (
-    <div className="p-4 m-4 md:m-14 bg-slate-100 rounded-2xl">
+    <div className="p-4 m-4 md:m-14 mt-10 md:mt-0 bg-slate-100 rounded-2xl">
       <div className="relative">
         <div className="inset-0 flex items-center justify-center">
           <div
-            className="tagline text-center md:text-left relative"
-            style={{ left: "70%", transform: "translateX(-50%)" }}
+            className="tagline -ml-20 text-xs text-left p-6 md:p-0 md:text-xl md:text-left relative"
+            style={{ left: "80%", transform: "translateX(-50%)" }}
           >
             <div className="text-4xl md:text-6xl font-serif">
               Enhance Your Data Insights with 

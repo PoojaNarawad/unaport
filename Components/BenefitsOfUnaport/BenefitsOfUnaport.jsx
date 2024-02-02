@@ -92,7 +92,7 @@ const BenefitsOfUnaport = () => {
         </div>
       </div>
       <div className="relative md:mt-8 md:w-1/2">
-        <div className="absolute z-10 w-3/4 md:w-2/3 md:p-5 p-5 font-semibold md:text-3xl border-indigo-900">
+        <div className="absolute z-10 w-3/4 md:w-2/3 md:p-5 p-5 font-semibold text-sm md:text-3xl border-indigo-900">
           Can Unaport adapt and scale as my business grows?
         </div>
         <div className=" md:mr-3 mt-4 md:mt-0 relative overflow-hidden">
