@@ -5,12 +5,12 @@ import benificial from "../../public/assets/11.jpg";
 
 const BenefitsOfUnaport = () => {
   return (
-    <div className=" md:m-10 md:-mt-10 m-5 flex flex-col md:flex-row justify-evenly items-center ">
-      <div className=" md:w-1/2 flex flex-col p-2 md:p-10 md:m-5 m-5 justify-around items-center bg-sky-100 md:rounded-2xl rounded-2xl">
-        <div className="p-2 md:p-4 md:w-11/12 font-semibold text-xl md:text-3xl bg-white rounded-xl">
+    <div className=" md:m-10 m-5 md:-mt-10 flex flex-col md:flex-row justify-evenly items-center ">
+      <div className=" md:w-1/2 flex flex-col p-0 md:p-10 md:m-5 m-5 justify-around items-center bg-sky-100 md:rounded-2xl rounded-2xl">
+        <div className="p-2 m-4 md:p-4 md:w-11/12 font-semibold text-xl md:text-3xl bg-white rounded-xl">
           What are the benefits of Unaport?
         </div>
-        <div className="mt-7">
+        <div>
           <div className="flex items-center justify-center p-2">
             <span className="flex flex-col items-center text-center">
               <Image
@@ -18,7 +18,7 @@ const BenefitsOfUnaport = () => {
                 height={50}
                 src={sampleimg}
                 alt="sample"
-                className="rounded-full w-20 h-20 md:mr-28"
+                className="rounded-full w-20 h-20 mr-0 md:mr-28"
               />
               <p className="text-indigo-900 font-semibold w-36 md:w-52 text-xs md:text-sm mt-2 md:mr-28 mr-0">
                 Multi-Account Aggregator Connectivity
@@ -44,7 +44,7 @@ const BenefitsOfUnaport = () => {
                 height={50}
                 src={sampleimg}
                 alt="sample"
-                className="rounded-full w-20 h-20 md:mr-28"
+                className="rounded-full w-20 h-20 mr-0 md:mr-28"
               />
               <p className="text-indigo-900 font-semibold w-36 md:w-52 text-xs md:text-sm mt-2 mr-0 md:mr-28">
                 Data Security
@@ -70,7 +70,7 @@ const BenefitsOfUnaport = () => {
                 height={50}
                 src={sampleimg}
                 alt="sample"
-                className="rounded-full w-20 h-20 md:mr-28"
+                className="rounded-full w-20 h-20 mr-0 md:mr-28"
               />
               <p className="text-indigo-900 font-semibold w-36 md:w-52 text-xs md:text-sm mt-2 mr-0 md:mr-28">
                 User-Friendly Interface
