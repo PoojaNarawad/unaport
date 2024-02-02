@@ -61,7 +61,7 @@ const Cards = () => {
             className="tagline text-xs text-left p-2 -ml-10 md:p-0 md:text-xl md:text-left relative"
             style={{ left: "80%", transform: "translateX(-50%)" }}
           >
-            <div className="w-4/5 text-4xl md:text-6xl font-serif">
+            <div className="w-4/5 md:w-full text-4xl md:text-6xl font-serif">
               Enhance Your Data Insights with 
               <span className="text-blue-600"> Powerful Tools</span>
             </div>
